@@ -1,0 +1,35 @@
+.cabacalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.cabecalho__lista {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.cabecalho__link a{
+  text-decoration: none;
+  color: var(--cor-texto);
+  margin-right: 3em;
+}
+
+button{
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background: none;
+  color: var(--cor-texto);
+  font-size: 0.9rem;
+}
+
+button#signUp {
+  background-color: var(--cor-botao);
+  color: #FFF;
+}
+

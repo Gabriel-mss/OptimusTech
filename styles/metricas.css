@@ -1,0 +1,45 @@
+.metricas{
+    padding: 1em;
+}
+
+
+.metricas-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;    
+    padding-bottom: 96px;
+}
+
+.primeira-metrica,
+.segunda-metrica,
+.terceira-metrica,
+.quarta-metrica {
+    width: 280px;
+    height: 168px;
+    text-align: center;
+}
+
+.metrica__titulo-principal{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    color: var(--cor-botao);
+}
+
+.metrica__titulo-secundario{
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.metrica__texto{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-texto);
+    text-align: center;
+}
